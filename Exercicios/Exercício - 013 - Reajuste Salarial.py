@@ -1,0 +1,6 @@
+salario = float(input("Quanto você ganha de salário?: R$ "))
+au = float(input("Digite quantos % você quer de aumento salarial ")) #aqui voc￿ê escolhe a porcentagem de aumento)
+valor = salario + (salario * au / 100)#Aqui vai ser calculado com a porcentagem escolhida)
+aumento = salario + (salario * 15 / 100)
+print("Seu salário terá um aumento de 15% ficando com o valor de {:.2f}".format(aumento))
+print("Você escolheu {:.2f} % de aumento e passará a ganhar {:.2f} reais".format(au, valor))
